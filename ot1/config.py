@@ -20,7 +20,7 @@ APP_ID = int(os.environ.get("APP_ID", "11381402"))
 API_HASH = os.environ.get("API_HASH", "349d6f6868d82dc82c7a9b356051f035")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001916523781"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002119647646"))
 
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "0")
@@ -50,7 +50,7 @@ START_MSG = os.environ.get(
     "<b>Hello {first}</b>\n\n<b>Saya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>\n\n<b>tidak mau ribet?</b>\n<b>join vvip bokep ,tanpa harus klik link</b>\n<b>testimoni member ⤵️</b>\n<b>https://t.me/+SxLAG8MhltUwMjM1</b>\n<b>kontak admin @feninaja</b>",
 )
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1961308748").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1961308748 6338847128").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
 
