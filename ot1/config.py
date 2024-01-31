@@ -39,7 +39,7 @@ UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 DB_URI = os.environ.get("DATABASE_URL", "postgres://xnawaiti:Qo3GdMGamgNqLPFZXABJg-YyjfOMSXIn@suleiman.db.elephantsql.com/xnawaiti")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002015487480"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001870896370"))
 FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001801421469"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
@@ -47,7 +47,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b>Hello {first}</b>\n\n<b>Saya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>\n\n<b>tidak mau ribet?</b>\n<b>join vvip bokep ,tanpa harus klik link</b>\n<b>testimoni member ⤵️</b>\n<b>https://t.me/+SxLAG8MhltUwMjM1</b>\n<b>kontak admin @feninaja</b>",
+    "<b>Hello {first}</b>\n\n<b>Saya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>\n\n<b>tidak mau ribet?</b>\n<b>join vvip bokep ,tanpa harus klik link</b>\n<b>testimoni member ⤵️</b>\n<b>https://t.me/+vcPRiQvsRF01ODZl</b>\n<b>kontak admin @feninajaa</b>",
 )
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1961308748 6338847128").split())]
@@ -57,7 +57,7 @@ except ValueError:
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "<b>Hello {first}\n\nAnda harus bergabung di Channel/Grup saya Terlebih dahulu untuk Melihat File yang saya Bagikan\n\nSilakan Join Ke Channel & Group Terlebih Dahulu</b>\n\n<b>tidak mau ribet?</b>\n<b>join vvip bokep ,tanpa harus klik link</b>\n<b>testimoni member ⤵️</b>\n<b>https://t.me/+SxLAG8MhltUwMjM1</b>\n<b>kontak admin @feninaja</b>",
+    "<b>Hello {first}\n\nAnda harus bergabung di Channel/Grup saya Terlebih dahulu untuk Melihat File yang saya Bagikan\n\nSilakan Join Ke Channel & Group Terlebih Dahulu</b>\n\n<b>tidak mau ribet?</b>\n<b>join vvip bokep ,tanpa harus klik link</b>\n<b>testimoni member ⤵️</b>\n<b>https://t.me/+vcPRiQvsRF01ODZl</b>\n<b>kontak admin @feninajaa</b>",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
